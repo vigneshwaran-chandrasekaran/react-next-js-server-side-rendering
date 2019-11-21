@@ -1,0 +1,27 @@
+{
+  "name": "react-next-js-server-side-rendering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigneshwaran-chandrasekaran/react-next-js-server-side-rendering.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigneshwaran-chandrasekaran/react-next-js-server-side-rendering/issues"
+  },
+  "homepage": "https://github.com/vigneshwaran-chandrasekaran/react-next-js-server-side-rendering#readme"
+}
