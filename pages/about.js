@@ -1,11 +1,10 @@
-import Navbar from "../components/Navbar";
+import Layout from "../components/Layout";
 
 function About() {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <h1>Welcome to About page !!</h1>
-    </div>
+    </Layout>
   );
 }
 

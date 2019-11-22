@@ -1,1 +1,0 @@
-{"version":3,"file":"static/webpack/static/development/pages/about.js.ae7a7a9f926893de6636.hot-update.js","sources":["webpack:///./pages/about.js"],"sourcesContent":["function About() {\n  return <div>Welcome to About page !!</div>;\n}\n\nexport default About;\n"],"mappings":";;;;;;;;;;;;;;;;;AAAA;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACA;AACA;AACA;;;;A","sourceRoot":""}
