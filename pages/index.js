@@ -6,6 +6,7 @@ function Home(props) {
   return (
     <Layout>
       <h1>Welcome to Next.js!</h1>
+      <img src="/images/panda.jpg" alt="panda" width="200" />
       <Rates rates={props.currencyRates} />
     </Layout>
   );
