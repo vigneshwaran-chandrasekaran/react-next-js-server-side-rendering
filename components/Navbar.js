@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
       <Link href="/">
         <a className="navbar-brand">React</a>
       </Link>
@@ -26,13 +26,13 @@ function Navbar() {
               </a>
             </li> */}
           <li className="nav-item">
-            <Link href="/about">
-              <a className="nav-link">About</a>
+            <Link href="/">
+              <a className="nav-link">Home</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/">
-              <a className="nav-link">Home</a>
+            <Link href="/about">
+              <a className="nav-link">About</a>
             </Link>
           </li>
         </ul>

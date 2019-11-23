@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -146,7 +146,14 @@ function Layout(props) {
       lineNumber: 18
     },
     __self: this
-  }), props.children);
+  }), __jsx("main", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, props.children));
 }
 
 /***/ }),
@@ -171,7 +178,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function Navbar() {
   return __jsx("nav", {
-    className: "navbar navbar-expand-lg navbar-dark bg-primary",
+    className: "navbar navbar-expand-lg navbar-dark bg-primary mb-3",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -234,7 +241,7 @@ function Navbar() {
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
+    href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
@@ -247,7 +254,7 @@ function Navbar() {
       lineNumber: 30
     },
     __self: this
-  }, "About"))), __jsx("li", {
+  }, "Home"))), __jsx("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
@@ -255,7 +262,7 @@ function Navbar() {
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
+    href: "/about",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
@@ -268,7 +275,7 @@ function Navbar() {
       lineNumber: 35
     },
     __self: this
-  }, "Home"))))));
+  }, "About"))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
@@ -2062,7 +2069,7 @@ function About() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/

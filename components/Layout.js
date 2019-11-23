@@ -16,7 +16,7 @@ export default function Layout(props) {
         ></link> */}
       </Head>
       <Navbar />
-      {props.children}
+      <main className="container">{props.children}</main>
     </div>
   );
 }
