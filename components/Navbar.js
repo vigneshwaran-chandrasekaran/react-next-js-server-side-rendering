@@ -35,6 +35,16 @@ function Navbar() {
               <a className="nav-link">About</a>
             </Link>
           </li>
+          <li className="nav-item">
+            <Link href="/countries">
+              <a className="nav-link">Countries</a>
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link href="/countries/india">
+              <a className="nav-link">India</a>
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
